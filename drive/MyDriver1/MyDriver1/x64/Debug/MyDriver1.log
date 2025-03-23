@@ -1,0 +1,36 @@
+﻿  Building 'MyDriver1' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  main.c
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(92,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(93,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(134,11): warning C4189: “status”: 局部变量已初始化但不引用
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(241,14): warning C4133: “!=”: 从“PLDR_DATA_TABLE_ENTRY32”到“PLIST_ENTRY32”的类型不兼容
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(248,14): warning C4047: “=”:“PVOID”与“ULONG”的间接级别不同
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(261,15): warning C4133: “!=”: 从“PLDR_DATA_TABLE_ENTRY”到“PLIST_ENTRY”的类型不兼容
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(233,10): warning C4047: “初始化”:“BOOLEAN”与“PVOID”的间接级别不同
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(243,11): warning C4047: “初始化”:“PWCHAR”与“ULONG”的间接级别不同
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(257,10): warning C4133: “初始化”: 从“PPEB32”到“PPEB64”的类型不兼容
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(278,34): warning C4459: “DeviceObject”的声明隐藏了全局声明
+      C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(12,16):
+      参见“DeviceObject”的声明
+  
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(278,34): warning C4100: “DeviceObject”: 未引用的形参
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(286,37): warning C4459: “DeviceObject”的声明隐藏了全局声明
+      C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(12,16):
+      参见“DeviceObject”的声明
+  
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(286,37): warning C4100: “DeviceObject”: 未引用的形参
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(293,8): warning C4189: “OutputBuffer”: 局部变量已初始化但不引用
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(292,8): warning C4189: “Size”: 局部变量已初始化但不引用
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(328,3): warning C4098: “UnloadDriver”:“void”函数返回值
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(322,34): warning C4100: “pDriver”: 未引用的形参
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(337,40): warning C4113: “NTSTATUS (__cdecl *)(PDRIVER_OBJECT,PIRP)”和“PDRIVER_DISPATCH”的参数列表不同
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(338,39): warning C4113: “NTSTATUS (__cdecl *)(PDRIVER_OBJECT,PIRP)”和“PDRIVER_DISPATCH”的参数列表不同
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(339,48): warning C4113: “NTSTATUS (__cdecl *)(PDRIVER_OBJECT,PIRP)”和“PDRIVER_DISPATCH”的参数列表不同
+C:\Users\Administrator\Documents\code\drive\MyDriver1\MyDriver1\main.c(335,62): warning C4100: “pReg”: 未引用的形参
+  MyDriver1.vcxproj -> C:\Users\Administrator\Documents\code\drive\MyDriver1\x64\Debug\MyDriver1.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Administrator\Documents\code\drive\MyDriver1\x64\Debug\MyDriver1.sys
+  
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  

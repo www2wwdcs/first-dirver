@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\Administrator\Documents\code\QNR31\QNR31\QNR31\main.cpp(22,20): warning C4267: “=”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\Users\Administrator\Documents\code\QNR31\QNR31\QNR31\main.cpp(81,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“ULONG64”
+      C:\Users\Administrator\Documents\code\QNR31\QNR31\QNR31\main.cpp(81,9):
+      请考虑在格式字符串中使用“%lld”
+      C:\Users\Administrator\Documents\code\QNR31\QNR31\QNR31\main.cpp(81,9):
+      请考虑在格式字符串中使用“%Id”
+      C:\Users\Administrator\Documents\code\QNR31\QNR31\QNR31\main.cpp(81,9):
+      请考虑在格式字符串中使用“%I64d”
+  
+  QNR31.vcxproj -> C:\Users\Administrator\Documents\code\QNR31\QNR31\x64\Debug\QNR31.exe
